@@ -8,10 +8,12 @@ Files:
 - `assets/` — headshot and creator avatars (webp)
 - `CNAME` — custom domain for GitHub Pages (`enesvfx.com`); don't delete
 - `.nojekyll` — tells GitHub Pages to serve files as-is
+- `.github/workflows/pages.yml` — Pages deploy workflow (push to `main` + manual "Run workflow")
 
 ## Hosting
 - **Repo**: https://github.com/DryChester/editportfolio (public), branch `main`
-- **Host**: GitHub Pages, deployed from `main` / root — every push to `main` goes live in ~1 minute
+- **Host**: GitHub Pages, Source = **GitHub Actions**, workflow `.github/workflows/pages.yml` ("Deploy to GitHub Pages")
+- **Deploying**: pushes made from Claude Code sessions do NOT trigger GitHub Actions or the legacy Pages build. After pushing a change, tell Adrian to open https://github.com/DryChester/editportfolio/actions/workflows/pages.yml and click **Run workflow → Run workflow** (on `main`). Commits Adrian makes himself on github.com deploy automatically.
 - **Domain**: `enesvfx.com`, registered at Porkbun. DNS: four A records on the apex → 185.199.108.153 / .109.153 / .110.153 / .111.153, and `www` CNAME → `drychester.github.io`
 
 ## Editor Config
