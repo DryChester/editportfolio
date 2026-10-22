@@ -38,10 +38,11 @@ Typography ("film-title caps", option B — chosen by the editor after rejecting
 ## Funnel Type
 - **Type**: DM (X / Twitter)
 - **CTA text**: Work with me
-- **CTA link**: https://x.com/enesvfx (profile link; could be swapped to a direct DM-compose link `https://x.com/messages/compose?recipient_id=<numeric id>` if the numeric ID is provided)
+- **CTA link**: https://x.com/messages/compose?recipient_id=1803682678266306560 (opens a DM to @enesvfx directly; X user ID `1803682678266306560`)
 - **CTA microcopy**: "Opens DMs on X · replies within 24h" (under hero CTA and final CTA)
+- The footer X icon still links to the profile (https://x.com/enesvfx) — only `.cta` buttons use the DM link.
 
-CTA locations (8): nav (sticky), hero, band after #02, band after #04, band after #06, About, footer closing.
+CTA locations (7): nav (sticky), hero, band after #02, band after #04, band after #06, About, footer closing.
 
 ## Structure Choices
 - **Navigation**: Nav bar — sticky, translucent maroon, gold hairline, wordmark left + gold CTA right
