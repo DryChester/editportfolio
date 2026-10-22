@@ -6,6 +6,13 @@ This is Adrian "Enes" (Enes Media)'s freelance video editing portfolio website. 
 Files:
 - `index.html` — the whole site (inline CSS + JS)
 - `assets/` — headshot and creator avatars (webp)
+- `CNAME` — custom domain for GitHub Pages (`enesvfx.com`); don't delete
+- `.nojekyll` — tells GitHub Pages to serve files as-is
+
+## Hosting
+- **Repo**: https://github.com/DryChester/editportfolio (public), branch `main`
+- **Host**: GitHub Pages, deployed from `main` / root — every push to `main` goes live in ~1 minute
+- **Domain**: `enesvfx.com`, registered at Porkbun. DNS: four A records on the apex → 185.199.108.153 / .109.153 / .110.153 / .111.153, and `www` CNAME → `drychester.github.io`
 
 ## Editor Config
 - **Name / Brand**: Adrian "Enes" — Enes Media
